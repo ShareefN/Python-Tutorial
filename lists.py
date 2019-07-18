@@ -1,4 +1,4 @@
-# A List is a collection which is ordered and changeable. Allows duplicate members.
+# A List is a collection which is ordered and changeable. Allows dupl icate members.
 
 # Creating lists 
 number = [1, 2, 4, 5, 7]
