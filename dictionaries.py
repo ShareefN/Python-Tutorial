@@ -9,26 +9,34 @@ person = {
 }
 
 # Get value 
-print(person['first_name'],  person['last_name'])
+# print(person['first_name'],  person['last_name'])
 
 # Add key/value 
 person['phone'] = '555-555-555'
 
-print(person)
+# print(person)
 
  # Get dict keys 
-print(person.keys())
+# print(person.keys())
 
 # Get dict items
-print(person.items())
+# print(person.items())
 
 # Copy dict 
 person2 = person.copy()
 person2['city'] = 'Amman'
 
-print(person2)
+# print(person2)
 
 # Remove item
 del(person['age'])
 
-print(person)
+# print(person)
+
+# List of dic 
+people = [
+    {'name': 'Ali', 'Age': 23},
+    {'name': 'Hassan', 'Age': 20}
+]
+
+print(people[0]['Age'])
