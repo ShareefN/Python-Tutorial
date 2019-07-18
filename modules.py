@@ -18,4 +18,13 @@ from camelcase import CamelCase
 
 c = CamelCase()
 
-print(c.hump('hello world'))
+# print(c.hump('hello world'))
+
+# import custom module
+from validator import validate_email
+
+email = 'shareefyahoo.com'
+if validate_email(email):
+    print('Email Is Valid')
+else: 
+    print('Invalid Email')
